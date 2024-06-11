@@ -47,7 +47,7 @@ if not client.is_user_authorized():
  
 os.system('clear')
 banner()
-input_file = sys.argv[0]
+input_file = sys.argv[3]
 users = []
 with open(input_file, encoding='UTF-8') as f:
     rows = csv.reader(f,delimiter=",",lineterminator="\n")
